@@ -1,0 +1,63 @@
+.btn-default:active {
+  background-color: yellow !important;
+}
+
+.btn-default:hover, .btn-info:hover {
+  background-color: #c16eff !important;
+}
+
+.btn-success:hover {
+  background-color: red !important;
+}
+
+.btn {
+  background-color: #5d4037 !important;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #2ff122 !important;
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: #c16eff !important;
+}
+
+div.card {
+  background-color: #eef59b !important;
+}
+
+.bg-white {
+  background-color: #eef59b !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: yellow !important;
+}
+
+p {
+  color: #2ff122 !important;
+}
+
+label {
+  color: #5d4037 !important;
+}
+
+li {
+  color: #5d4037 !important;
+}
+
+li:hover {
+  color: #0b51c5 !important;
+}
+
+a.text-info:hover {
+  color: red !important;
+}
+
+.btn-dark.dropdown-toggle:hover {
+  background-color: #eef59b !important;
+}
+
+/*# sourceMappingURL=style.css.map */

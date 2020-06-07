@@ -1,0 +1,38 @@
+$beige: beige;
+$yellow: yellow;
+$violet: #c16eff;
+$red: red;
+$brown: #5d4037;
+$blue: #0b51c5;
+$input: 'input-red';
+@mixin input-brown {
+  @debug "dynamique variable : #{'$input-'+'brown'}";
+  background-color: $brown !important;
+}
+.input-brown{
+  @include input-brown;
+}
+
+@mixin input {
+
+  font-size: 15px !important;
+  border: solid 1px $brown !important;
+  border-radius: 20px !important;
+  color: wheat !important;
+  transition: 0.5s;
+}
+
+.input {
+  @include input;
+}
+
+@mixin input-hover {
+  background-color: $beige !important;
+  font-size: 17px !important;
+  border: solid 1px $brown !important;
+  color: black !important;
+}
+
+.input:hover {
+  @include input-hover;
+}

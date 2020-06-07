@@ -1,0 +1,51 @@
+.btn-default:active {
+    background-color: yellow !important;
+}
+
+.btn-default:hover, .btn-info:hover {
+    background-color: #c16eff !important;
+}
+
+.btn-success:hover {
+    background-color: red !important;
+}
+
+.btn {
+    background-color: #5d4037 !important;
+}
+
+.navbar {
+    background-color: #854aae !important;
+}
+
+div.card {
+    background-color: #0b51c5 !important;
+}
+
+.bg-white {
+    background-color: beige !important;
+}
+
+h1, h2, h3, h4, h5 {
+    color: yellow !important;
+}
+
+p {
+    color: #2ff122 !important;
+}
+
+label {
+    color: #42a5f5 !important;
+}
+
+li {
+    color: #c52b97 !important;
+}
+
+li:hover {
+    color: #7fff4c !important;
+}
+
+a:hover {
+    color: #ff00ce !important;
+}

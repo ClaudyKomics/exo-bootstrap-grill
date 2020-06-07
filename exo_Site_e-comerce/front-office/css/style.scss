@@ -1,0 +1,72 @@
+$beige: #eef59b;
+$yellow: yellow;
+$violet: #c16eff;
+$red: red;
+$marron: #5d4037;
+$blue: #0b51c5;
+$green: #2ff122;
+$pink: #c52b97;
+$btnWidth: 200px;
+$btnHeight: 20px;
+
+
+.btn-default:active {
+  background-color: $yellow !important;
+}
+
+.btn-default:hover, .btn-info:hover {
+  background-color: $violet !important;
+}
+
+.btn-success:hover {
+  background-color: $red !important;
+}
+
+.btn {
+  background-color: $marron !important;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: $green !important;
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: $violet !important;
+}
+
+div.card {
+  background-color: $beige !important;
+}
+
+.bg-white {
+  background-color: $beige !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $yellow !important;
+}
+
+p {
+  color: $green !important;
+}
+
+label {
+  color: $marron !important;
+}
+
+li {
+  color: $marron !important;
+}
+
+li:hover {
+  color: $blue !important;
+}
+
+a.text-info:hover {
+  color: $red !important;
+}
+.btn-dark.dropdown-toggle:hover{
+  background-color: $beige !important;
+}
+

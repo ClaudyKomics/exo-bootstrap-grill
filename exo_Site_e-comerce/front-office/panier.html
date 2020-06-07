@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcommerceSite</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mdb.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="deep-orange lighten-5">
+<div class="container">
+    <header class="row mb-5">
+        <nav class="navbar fixed-top white"
+             style="padding-left: unset;">
+            <div class="ml-5">
+                <a class="btn btn-default btn-sm" href="index.html">HOME</a>
+                <a class="btn btn-default btn-sm active" href="panier.html">Panier</a>
+                <a class="btn btn-default btn-sm" href="parametre.html">Parametre</a>
+            </div>
+            <div class="ml-auto">
+                <a class="text-info" href="inscription.html">S'inscrire</a>
+                <div class="btn-group">
+                    <a href="login.html">
+                        <button type="button" class="btn btn-info btn-sm">Se connecter</button>
+                    </a>
+                    <button type="button" class="btn btn-dark btn-sm dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Mot de passe</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="row">
+        <h1 class="mt-5 text-center">Recapitulatif de mon panier</h1>
+    </div>
+    <div class="row">
+        <div class="col-xl-7 m-1">
+            <div class="row border shadow p-3 bg-white rounded">
+                <div class="card col-lg-4 h-100">
+                    <img class="card-img-top" src="img/micro.jpg" alt="Card image">
+                </div>
+                <div class="card-body col-lg-6">
+                    <h4 class="card-title">Micro</h4>
+                    <p class="card-text">150.00 euro</p>
+                    <button type="button" class="btn btn-info btn-sm">Plus de detail...</button>
+                </div>
+            </div>
+            <div class="row border shadow p-3 bg-white rounded">
+                <div class="card col-lg-4 h-100">
+                    <img class="card-img-top" src="img/gibson.jpg" alt="Card image">
+                </div>
+                <div class="card-body col-lg-6">
+                    <h4 class="card-title">Micro</h4>
+                    <p class="card-text">150.00 euro</p>
+                    <button type="button" class="btn btn-info btn-sm">Plus de detail...</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 m-1">
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                    <div class="row text-muted">
+                        <p class=" col-xl-6 ">Produit</p><p class="  ml-auto">300 euro</p>
+                        <p class=" col-xl-5 ">Livraison</p><p class="  ml-auto">40 euro</p>
+                        <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-75">
+                    </div>
+                    <div class="row">
+                        <p class="font-weight-bold col-xl-5">TOTAL</p>
+                        <p class="font-weight-bold ml-auto">340 euro</p>
+                    </div>
+                    <a href="#" class="btn btn-success btn-md">Valider ma commande</a>
+                </div>
+            </div>
+            <div class="card mt-2 h-auto" style="width: 25rem;">
+                <div class="card-body">
+                    <p class="font-weight-bolder">Une question? contactez-nous 034 69 206 67</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid text-light mt-5">
+    <footer class="row bg-dark">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-xl-3">
+                    <h5>A propos</h5>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <p class="mb-0">
+                        Ce site est une site de vente en ligne de divers produit pour des differentes personne
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                    <h5>Informations</h5>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <ul class="list-unstyled">
+                        <li><a href="">MonSite</a></li>
+                        <li><a href="">Societe</a></li>
+                        <li><a href="">Qualite</a></li>
+                        <li><a href="">Horaire</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                    <h5>Divers</h5>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <ul class="list-unstyled">
+                        <li><a href="">Achat</a></li>
+                        <li><a href="">Nouveaute</a></li>
+                        <li><a href="">Recent</a></li>
+                        <li><a href="">Popularite</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h5>Contact</h5>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-home mr-2"></i>My company</li>
+                        <li><i class="fa fa-envelope mr-2"></i>Monemail.com</li>
+                        <li><i class="fa fa-phone mr-2"></i>034 69 206 67</li>
+                        <li><i class="fa fa-print mr-2"></i>033 43 972 30</li>
+                    </ul>
+                </div>
+                <div class="col-12 copyright mt-3">
+                    <p class="text-right text-muted">created <i class="fa fa-heart"></i> by <a
+                            href="#"><i>DEVINBOX</i></a></p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</div>
+</body>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
+</html>
